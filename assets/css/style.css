@@ -1,0 +1,542 @@
+body {
+    /* background-image: url(../images/bgtexture.jpg); */
+    background-color:#4F4F4F;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #4F4F4F;
+}
+
+.container {
+
+    width: 960px;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    background-color: black;
+    position: relative;
+}
+
+main {
+
+    width: 960px;
+    height: 100%;
+    margin: 20px auto 0 auto;
+    background-color: whitesmoke;
+    /* position: relative; */
+    top: 200px;
+
+}
+
+#logobox {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 147px;
+    background-color:#4F4F4F;
+    border-top: 3px solid coral;
+}
+
+#logo {
+    position: absolute;
+    width: 220px;
+    margin-top: 20px;
+    left: 40px;
+    right: 40px;
+
+}
+
+#banner {
+
+    background-color: black;
+    height: 170px;
+    width: 100%;
+}
+
+#navbox {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+}
+#navbar ul
+{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+#navbar ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navbar li:not(:first-child):before {
+    content: " | ";
+}
+
+
+a {
+
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:focus {
+    color:blue;
+}
+
+footer {
+
+    clear: both;
+    background-color: black;
+    height: 40px;
+    color: whitesmoke;
+    border-top: 3px solid coral;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+h1 {
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 26pt;
+    color: #4F4F4F;
+    letter-spacing: 0.05em; 
+
+}
+
+h1, h2, p {
+
+    padding: 20px;
+}
+
+h2 {
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 20pt;
+    color: #4F4F4F;
+    letter-spacing: 0.05em; 
+}
+
+hr {
+        height: 0px;
+        border: none;
+        border-top: 3px solid coral;
+    }
+
+#left {
+
+    float: left;
+    padding: 30px;
+}
+
+#right {
+
+    float: left;
+    width: 70%;
+
+
+}
+
+.clr {
+
+    clear: both;
+}
+
+/* form css starts here */
+.my-form {
+
+    padding: 20px;
+}
+
+.my-form .form-grop {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display:block;
+    width:100%;
+}
+
+.my-form input [type="button"] {
+
+    padding: 10px;
+    width: 100%;
+} 
+
+.my-form textarea {
+    padding: 20px;
+    width: 80%;
+}
+
+.button {
+
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* portfolio css */
+
+.container-box {
+    position: relative;
+    font-family: Arial;
+    width:350px;
+    margin-left:20px;
+    margin-top:20px;
+  
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 350px;
+    height: 50px;
+    right: 0;
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .left-box {
+
+    float: left;
+    margin-right: 20px;
+    width: 35%;  
+  }
+
+  .right-box {
+
+    float: right;
+    margin-right: 20px;
+    width: 35%;  
+}
+
+@media only screen and (max-width: 640px) {
+  
+    .container {
+        width: 100%;
+    }
+
+    main {
+
+        width: 100%;
+        height: 100%;
+        margin: 20px auto 0 auto;
+        background-color: whitesmoke;
+    
+    }
+
+    #navbox {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    #navbar ul li
+{
+    list-style-type: none;
+    display: block;
+}
+    
+    #left {
+
+        float: left;
+        padding: 30px;
+        width: 100%;
+    }
+    
+    #right {
+    
+        float: left;
+        width: 100%;
+  }
+
+  #logobox {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#4F4F4F;
+    border-top: 3px solid coral;
+}
+
+#logo {
+    position: absolute;
+    width: 45%;
+    margin-top: 10px;
+
+}
+.container {
+
+    width: 100%;
+    height: 0px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(92, 43, 43);
+    position: relative;
+}
+/* portfolio css */
+
+.container-box {
+    position: relative;
+    font-family: Arial;
+    width:100%;
+    margin-left:20px;
+    margin-top:20px;
+  
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 50px;
+    right: 0;
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .left-box {
+
+    float: left;
+    width: 90%;  
+  }
+
+  .right-box {
+
+    float: right;   
+     width: 90%; 
+}
+}
+
+@media only screen and (max-width: 768px) {
+  
+    .container {
+        width: 100%;
+    }
+
+    main {
+
+        width: 100%;
+        height: 100%;
+        margin: 20px auto 0 auto;
+        background-color: whitesmoke;
+    
+    }
+
+    #navbox {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    #navbar ul li
+{
+    list-style-type: none;
+    display: block;
+}
+    
+    #left {
+
+        float: left;
+        padding: 30px;
+        width: 100%;
+    }
+    
+    #right {
+    
+        float: left;
+        width: 100%;
+  }
+
+  #logobox {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#4F4F4F;
+    border-top: 3px solid coral;
+}
+
+#logo {
+    position: absolute;
+    width: 35%;
+    margin-top: 10px;
+
+}
+.container {
+
+    width: 100%;
+    height: 0px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(92, 43, 43);
+    position: relative;
+}
+/* portfolio css */
+
+.container-box {
+    position: relative;
+    font-family: Arial;
+    width:100%;
+    margin-left:20px;
+    margin-top:20px;
+  
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 50px;
+    right: 0;
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .left-box {
+
+    float: left;
+    width: 90%;  
+  }
+
+  .right-box {
+
+    float: right;   
+     width: 90%; 
+}
+}
+
+@media only screen and (max-width: 980px) {
+  
+    .container {
+        width: 100%;
+    }
+
+    main {
+
+        width: 100%;
+        height: 100%;
+        margin: 20px auto 0 auto;
+        background-color: whitesmoke;
+    
+    }
+
+    #navbox {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    #navbar ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+    
+    #left {
+
+        float: left;
+        padding: 30px;
+        width: 30%;
+    }
+    
+    #right {
+    
+        float: left;
+        width: 70%;
+  }
+
+  #logobox {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#4F4F4F;
+    border-top: 3px solid coral;
+}
+
+#logo {
+    position: absolute;
+    width: 30%;
+    margin-top: 10px;
+
+}
+.container {
+
+    width: 100%;
+    height: 0px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(92, 43, 43);
+    position: relative;
+}
+/* portfolio css */
+
+.container-box {
+    position: relative;
+    font-family: Arial;
+    width:100%;
+    margin-left:20px;
+    margin-top:20px;
+  
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 50px;
+    right: 0;
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .left-box {
+
+    float: left;
+    width: 90%;  
+  }
+
+  .right-box {
+
+    float: right;   
+     width: 90%; 
+}
+}
