@@ -232,7 +232,9 @@ hr {
     width: 35%;  
 }
 
-@media only screen and (max-width: 640px) {
+
+
+@media only screen and (max-width: 980px) {
   
     .container {
         width: 100%;
@@ -258,20 +260,20 @@ hr {
     #navbar ul li
 {
     list-style-type: none;
-    display: block;
+    display: inline;
 }
     
     #left {
 
         float: left;
         padding: 30px;
-        width: 100%;
+        width: 30%;
     }
     
     #right {
     
         float: left;
-        width: 100%;
+        width: 70%;
   }
 
   #logobox {
@@ -286,7 +288,7 @@ hr {
 
 #logo {
     position: absolute;
-    width: 45%;
+    width: 30%;
     margin-top: 10px;
 
 }
@@ -334,6 +336,7 @@ hr {
      width: 90%; 
 }
 }
+
 
 @media only screen and (max-width: 768px) {
   
@@ -438,7 +441,8 @@ hr {
 }
 }
 
-@media only screen and (max-width: 980px) {
+
+@media only screen and (max-width: 640px) {
   
     .container {
         width: 100%;
@@ -464,20 +468,20 @@ hr {
     #navbar ul li
 {
     list-style-type: none;
-    display: inline;
+    display: block;
 }
     
     #left {
 
         float: left;
         padding: 30px;
-        width: 30%;
+        width: 100%;
     }
     
     #right {
     
         float: left;
-        width: 70%;
+        width: 100%;
   }
 
   #logobox {
@@ -492,7 +496,7 @@ hr {
 
 #logo {
     position: absolute;
-    width: 30%;
+    width: 45%;
     margin-top: 10px;
 
 }
